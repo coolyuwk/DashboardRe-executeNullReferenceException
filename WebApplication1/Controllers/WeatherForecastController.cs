@@ -66,22 +66,10 @@ namespace WebApplication1.Controllers
         public string Name { get; set; }
         public bool Manager { get; set; }
         public string Mobile { get; set; }
-        /// <summary>
-        /// 门店ID
-        /// </summary>
         public Guid TenantId { get; set; }
         public string[] Role { get; set; }
-        /// <summary>
-        /// 服务商ID
-        /// </summary>
         public Guid ProvidersId { get; set; }
-        /// <summary>
-        /// 身份证
-        /// </summary>
         public string IdCard { get; set; }
-        /// <summary>
-        /// 扩展数据
-        /// </summary>
         public Dictionary<string, object> Extend { get; set; }
     }
 
